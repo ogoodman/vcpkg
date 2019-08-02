@@ -15,6 +15,7 @@ vcpkg_from_github(
         ${CMAKE_CURRENT_LIST_DIR}/fix-dependencies.patch
         ${CMAKE_CURRENT_LIST_DIR}/fix-lz4.patch
         ${CMAKE_CURRENT_LIST_DIR}/no-werror.patch
+        ${CMAKE_CURRENT_LIST_DIR}/remove-zstd.patch
 )
 
 set(BUILD_libarchive_bzip2 OFF)
